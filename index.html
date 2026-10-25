@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Schiphol Vertrektijden: Bereid Je Reis Slim Voor</title>
+  <meta name="description" content="Leer hoe je Schiphol vertrektijden controleert, je vlucht voorbereidt en praktische tips gebruikt voor een comfortabele start van je reis.">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.8;
+      color: #29394c;
+      background:
+        radial-gradient(circle at 85% 12%, rgba(81, 199, 226, 0.3), transparent 30%),
+        linear-gradient(135deg, #07172e 0%, #155578 48%, #e7f4fa 100%);
+      padding: 32px 15px;
+      min-height: 100vh;
+    }
+
+    .page {
+      max-width: 1000px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 20px;
+      background: #ffffff;
+      box-shadow: 0 20px 55px rgba(0, 15, 35, 0.3);
+    }
+
+    header {
+      padding: 68px 30px;
+      text-align: center;
+      color: #ffffff;
+      background: linear-gradient(125deg, #061a35, #105c83 75%, #1685a8);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 20px;
+      padding: 7px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      border-radius: 30px;
+      color: #d9f5ff;
+      font-size: 12px;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+    }
+
+    header h1 {
+      max-width: 850px;
+      margin: 0 auto 18px;
+      color: #ffffff;
+      font-size: clamp(32px, 5vw, 46px);
+      line-height: 1.25;
+    }
+
+    header p {
+      max-width: 720px;
+      margin: 0 auto;
+      color: #e5f4ff;
+      font-size: 17px;
+    }
+
+    main {
+      padding: 42px;
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+      color: #10476e;
+      font-size: 25px;
+      line-height: 1.4;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 16px;
+    }
+
+    .intro {
+      padding: 25px;
+      border-left: 5px solid #16a4cc;
+      border-radius: 10px;
+      background: #eff9fd;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+      margin: 25px 0;
+    }
+
+    .card {
+      padding: 23px 18px;
+      border: 1px solid #d9eaf3;
+      border-radius: 14px;
+      background: linear-gradient(145deg, #fbfeff, #eaf6fb);
+    }
+
+    .card h3 {
+      margin-bottom: 9px;
+      color: #12638b;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+
+    ul {
+      margin: 14px 0 20px 25px;
+    }
+
+    li {
+      margin-bottom: 11px;
+      padding-left: 4px;
+    }
+
+    a {
+      color: #087bac;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid #86cce4;
+    }
+
+    a:hover {
+      color: #06496d;
+      border-bottom-color: #06496d;
+    }
+
+    .advice {
+      margin: 24px 0;
+      padding: 24px;
+      border: 1px solid #d7e9f5;
+      border-radius: 13px;
+      background: #f1f8ff;
+    }
+
+    .advice h3 {
+      margin-bottom: 8px;
+      color: #14547b;
+      font-size: 19px;
+    }
+
+    .faq {
+      margin-bottom: 16px;
+      padding: 21px;
+      border: 1px solid #e0eaf0;
+      border-radius: 12px;
+      background: #fbfdff;
+    }
+
+    .faq h3 {
+      margin-bottom: 8px;
+      color: #14547b;
+      font-size: 18px;
+    }
+
+    .faq p {
+      margin-bottom: 0;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      color: #dceaf5;
+      background: #07182f;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        padding: 12px 8px;
+      }
+
+      header {
+        padding: 46px 22px;
+      }
+
+      main {
+        padding: 25px 20px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      h2 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+
+    <header>
+      <span class="eyebrow">Praktische reistips</span>
+      <h1>Schiphol Vertrektijden: Zo Begin Je Goed Voorbereid aan Je Reis</h1>
+      <p>
+        Ontdek hoe je vluchtinformatie controleert, je reis efficiënt plant
+        en goed voorbereid naar Amsterdam Airport Schiphol vertrekt.
+      </p>
+    </header>
+
+    <main>
+      <section class="intro">
+        <p>
+          Een comfortabele vliegreis begint met een goede voorbereiding.
+          Naast het boeken van een ticket is het belangrijk om te weten
+          wanneer je vlucht vertrekt, hoe je de luchthaven bereikt en
+          welke stappen je voor het instappen moet volgen. Door deze
+          zaken vooraf te regelen, kun je onnodige haast vermijden.
+        </p>
+        <p>
+          Reizigers die Schiphol vertrektijden willen bekijken, zoeken
+          vaak naar informatie over geplande vluchten, bestemmingen en
+          mogelijke vertragingen. Omdat vluchtgegevens kunnen veranderen,
+          is het verstandig om de informatie op verschillende momenten
+          voor vertrek opnieuw te controleren.
+        </p>
+      </section>
+
+      <section>
+        <h2>Welke vluchtgegevens zijn belangrijk?</h2>
+        <p>
+          Voordat je naar de luchthaven gaat, is het handig om de
+          belangrijkste gegevens van je vlucht bij de hand te hebben.
+          Denk aan het vluchtnummer, de bestemming, de geplande vertrektijd
+          en de informatie over het inchecken. Hiermee kun je gemakkelijker
+          de juiste vlucht herkennen.
+        </p>
+        <p>
+          Let erop dat een geplande vertrektijd geen garantie is dat het
+          vliegtuig precies op dat moment vertrekt. Operationele wijzigingen,
+          weersomstandigheden en andere factoren kunnen invloed hebben
+          op het vluchtschema.
+        </p>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Vertrektijd</h3>
+            <p>
+              Bekijk de geplande tijd en controleer of er een recente
+              wijziging in het schema is vermeld.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Vluchtstatus</h3>
+            <p>
+              Let op meldingen over vertragingen, boarding of andere
+              veranderingen die van invloed zijn op je reis.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Vertrekgate</h3>
+            <p>
+              Bekijk de beschikbare gategegevens en controleer deze
+              opnieuw op de informatieschermen van de luchthaven.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Waar kun je vertrektijden bekijken?</h2>
+        <p>
+          Online vluchtinformatie is handig wanneer je thuis je reis
+          voorbereidt of onderweg wilt controleren of alles volgens
+          planning verloopt. Afhankelijk van het beschikbare overzicht
+          kun je vluchten vinden op basis van hun bestemming,
+          luchtvaartmaatschappij of vluchtnummer.
+        </p>
+        <p>
+          Voor een overzicht van beschikbare vluchtinformatie kun je
+          <a href="https://schipholvertrek.nl/" target="_blank" rel="noopener noreferrer">Schiphol vertrektijden</a>
+          bekijken. Gebruik de gegevens van je eigen boeking om de
+          juiste vlucht te vinden en controleer belangrijke updates
+          ook bij je luchtvaartmaatschappij.
+        </p>
+        <p>
+          Zodra je op Schiphol bent aangekomen, blijf je het beste de
+          informatieborden volgen. De gate kan later bekend worden
+          gemaakt of veranderen. Door regelmatig te controleren,
+          weet je waar je naartoe moet.
+        </p>
+      </section>
+
+      <section>
+        <h2>Plan voldoende tijd voor je vertrek</h2>
+        <p>
+          Een goede tijdsplanning voorkomt dat je onnodig moet haasten.
+          De benodigde tijd hangt af van je bestemming, de
+          incheckprocedure, de hoeveelheid bagage en de drukte op
+          de luchthaven. Volg daarom het aankomstadvies van je
+          luchtvaartmaatschappij.
+        </p>
+
+        <ul>
+          <li>
+            <strong>Controleer je reisdocumenten:</strong> zorg ervoor
+            dat je paspoort of identiteitsbewijs geldig is en neem
+            eventuele benodigde visa mee.
+          </li>
+          <li>
+            <strong>Bereid je bagage voor:</strong> controleer vooraf
+            de regels voor handbagage, vloeistoffen en ruimbagage.
+          </li>
+          <li>
+            <strong>Regel je vervoer:</strong> bekijk de reistijd met
+            de trein, bus, taxi of auto en houd rekening met mogelijke
+            vertragingen onderweg.
+          </li>
+          <li>
+            <strong>Bewaar je boekingsgegevens:</strong> zorg dat je
+            vluchtnummer en instapkaart gemakkelijk toegankelijk zijn.
+          </li>
+          <li>
+            <strong>Houd je telefoon opgeladen:</strong> zo kun je
+            berichten over je vlucht bekijken en belangrijke gegevens
+            raadplegen wanneer dat nodig is.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Wat betekenen vertragingen voor je reisplanning?</h2>
+        <p>
+          Een vlucht kan om verschillende redenen vertraging oplopen.
+          Soms heeft dit te maken met het weer, terwijl in andere
+          gevallen operationele omstandigheden een rol spelen.
+          Het is daarom belangrijk om flexibel te blijven en de
+          nieuwste informatie te volgen.
+        </p>
+
+        <div class="advice">
+          <h3>Controleer updates regelmatig</h3>
+          <p>
+            Bekijk de meest recente vluchtstatus en let op meldingen
+            van je luchtvaartmaatschappij. Vertrouw niet uitsluitend
+            op een vertrektijd die je eerder hebt gezien.
+          </p>
+
+          <h3>Volg de aanwijzingen op de luchthaven</h3>
+          <p>
+            Luister naar omroepberichten en bekijk de informatieschermen.
+            Zo blijf je op de hoogte van veranderingen in de
+            instaptijd of de toegewezen gate.
+          </p>
+
+          <h3>Bewaar belangrijke informatie</h3>
+          <p>
+            Houd je boekingsnummer, vluchtgegevens en eventuele berichten
+            over wijzigingen bij de hand. Dit kan nuttig zijn wanneer
+            je contact moet opnemen met de luchtvaartmaatschappij.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Hoe bereik je Schiphol zonder onnodige stress?</h2>
+        <p>
+          Er zijn verschillende manieren om naar de luchthaven te reizen.
+          De trein is voor veel reizigers een praktische keuze, omdat
+          station Schiphol Airport direct bij de luchthaven ligt.
+          Wie met de auto komt, kan vooraf de route en parkeermogelijkheden
+          bekijken.
+        </p>
+        <p>
+          Houd rekening met drukte op de weg, geplande werkzaamheden
+          en mogelijke verstoringen van het openbaar vervoer. Door
+          extra reistijd in te plannen, verklein je de kans dat een
+          onverwachte situatie je vertrekplanning in de war brengt.
+        </p>
+      </section>
+
+      <section>
+        <h2>Veelgestelde vragen over Schiphol vertrektijden</h2>
+
+        <div class="faq">
+          <h3>Hoe controleer ik of mijn vlucht op tijd vertrekt?</h3>
+          <p>
+            Bekijk de meest recente vluchtstatus in een vertrekoverzicht
+            en controleer eventuele berichten van je luchtvaartmaatschappij.
+            De situatie kan tot vlak voor vertrek veranderen.
+          </p>
+        </div>
+
+        <div class="faq">
+          <h3>Wanneer wordt mijn vertrekgate bekend?</h3>
+          <p>
+            De gategegevens kunnen op verschillende momenten beschikbaar
+            komen. Houd de informatieschermen op Schiphol in de gaten
+            en controleer of de gate niet is gewijzigd.
+          </p>
+        </div>
+
+        <div class="faq">
+          <h3>Hoe vroeg moet ik op Schiphol zijn?</h3>
+          <p>
+            De aanbevolen aankomsttijd verschilt per vlucht en
+            luchtvaartmaatschappij. Houd rekening met je bestemming,
+            eventuele ruimbagage en de benodigde inchecktijd.
+          </p>
+        </div>
+
+        <div class="faq">
+          <h3>Wat moet ik doen als mijn vlucht wordt geannuleerd?</h3>
+          <p>
+            Neem de instructies van je luchtvaartmaatschappij door
+            en informeer naar de beschikbare mogelijkheden voor
+            omboeken of verdere ondersteuning.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Conclusie</h2>
+        <p>
+          Een goede voorbereiding maakt het vertrek vanaf Schiphol
+          een stuk overzichtelijker. Controleer je vluchtgegevens,
+          zorg dat je reisdocumenten en bagage in orde zijn en plan
+          voldoende tijd voor het vervoer naar de luchthaven. Door
+          actuele informatie te blijven volgen en rekening te houden
+          met mogelijke wijzigingen, kun je met meer vertrouwen aan
+          je vliegreis beginnen. Een duidelijke planning helpt je om
+          je aandacht te richten op de bestemming en te genieten van
+          een ontspannen start van je reis.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Bereid je goed voor en begin met vertrouwen aan je volgende vliegreis.</p>
+    </footer>
+
+  </div>
+</body>
+</html>
